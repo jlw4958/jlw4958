@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Jabrecia
 - 👀 I’m interested in: coding, learning, art, music, and movies.
-- 🌱 I’m currently learning: C#, MonoGame, Unity, HTML, CSS, and JavaScript.
+- 🌱 I’m currently using: C#, MonoGame, Unity, HTML, CSS, JavaScript, and C++.
 - 💞️ I’m looking to collaborate on: anything that will allow me to utilize the skills mentioned above!
 - 📫 How to reach me: email me at jlw4958@rit.edu (school) or jabwashi2@gmail.com (personal/professional).
 
