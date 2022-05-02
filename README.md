@@ -1,8 +1,8 @@
 - 👋 Hi, I’m Jabrecia
 - 👀 I’m interested in: coding, learning, art, music, and movies.
 - 🌱 I’m currently using: C#, MonoGame, Unity, HTML, CSS, JavaScript, and C++.
-- 💞️ I’m looking to collaborate on: anything that will allow me to utilize the skills mentioned above!
-- 📫 How to reach me: email me at jlw4958@rit.edu (school) or jabwashi2@gmail.com (personal/professional).
+- 💞️ I’m looking to collaborate on: anything that will allow me to utilize the skills mentioned above and learn more!
+- 📫 How to reach me: email me at jlw4958@rit.edu (school email) or jabwashi2@gmail.com (personal email).
 
 <!---
 jlw4958/jlw4958 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
