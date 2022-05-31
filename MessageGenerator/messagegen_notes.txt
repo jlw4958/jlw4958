@@ -21,3 +21,11 @@ plan!!
 ---end of menu---
 
 save name and message info to a dictionary
+
+---function planning---
+what do we need to be able to do?
+
+- read in file
+- write to file
+- loop through alphabet + print to console
+^^^make that a method
