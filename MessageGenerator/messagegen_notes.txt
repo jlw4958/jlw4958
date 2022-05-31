@@ -29,3 +29,5 @@ what do we need to be able to do?
 - write to file
 - loop through alphabet + print to console
 ^^^make that a method
+
+probably use the unicode characters for the punctuation
