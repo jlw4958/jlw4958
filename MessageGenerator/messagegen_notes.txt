@@ -31,3 +31,5 @@ what do we need to be able to do?
 ^^^make that a method
 
 probably use the unicode characters for the punctuation
+
+there's a code for spaces (of course) so rewrite original array population loop to include spaces, numbers, and punctuation

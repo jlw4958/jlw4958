@@ -7,19 +7,26 @@ namespace MessageGenerator
         static void Main(string[] args)
         {
 
-            char[] alphArray = new char[26];
+            char[] alphArray = new char[58];
 
             //number for populating the array
             int num = 0;
 
-            //populating the array
+            //populating the array with letters (lowercase only)
             for (int i = 97; i < 123; i++)
             {
                 alphArray[num] = (char)i;
                 num++;
             }
 
-            AlphabetShuffle(alphArray, "Hello World");
+            //populating the array with punctuation and the space
+            for (int i = 32; i < 64; i++)
+            {
+                alphArray[num] = (char)i;
+                num++;
+            }
+
+            AlphabetShuffle(alphArray, "Hello World!");
         }
 
         public static void AlphabetShuffle(char[] array, string word)
@@ -42,11 +49,11 @@ namespace MessageGenerator
                         break;
                     }
 
-                    if (word[i] == ' ')
-                    {
-                        finalWord += ' ';
-                        break;
-                    }
+                    //if (word[i] == ' ')
+                    //{
+                    //    finalWord += ' ';
+                    //    break;
+                    //}
                 }
             }
         }
