@@ -14,13 +14,27 @@ namespace MessageGenerator
             int num = 0;
 
             //populating the array with letters, numbers, and symbols
-            for (int i = 32; i < 126; i++)
+            //for (int i = 32; i < 126; i++)
+            //{
+            //    alphArray[num] = (char)i;
+            //    num++;
+            //}
+
+            //adding lowercase letters first
+            for (int i = 97; i < 123; i++)
             {
                 alphArray[num] = (char)i;
                 num++;
             }
 
-            AlphabetShuffle(alphArray, "Hello World!");
+            //populating the array with punctuation, space, and capital letters
+            for (int i = 32; i < 96; i++)
+            {
+                alphArray[num] = (char)i;
+                num++;
+            }
+
+            AlphabetShuffle(alphArray, "Eat your chicken nuggets >:(");
         }
 
         public static void AlphabetShuffle(char[] array, string word)
@@ -35,12 +49,10 @@ namespace MessageGenerator
             {
                 for (int j = 0; j < array.Length; j++)
                 {
-                    if (array[j] == )
+                    if ((int)array[j] >= 97 && (int)array[j] <= 122 )
                     {
-
+                        Console.WriteLine(finalWord + array[j]);
                     }
-                    Console.WriteLine(finalWord + array[j]);
-
                     if (array[j] == word[i])
                     {
                         finalWord += array[j];
@@ -49,6 +61,8 @@ namespace MessageGenerator
                     
                 }
             }
+
+            Console.WriteLine(finalWord);
         }
     }
 }
